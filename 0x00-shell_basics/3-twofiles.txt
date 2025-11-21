@@ -1,0 +1,4 @@
+#!/bin/bash
+# Script: 3-twofiles
+# Task: Displays the content of /etc/passwd and /etc/hosts using a single cat command.
+cat /etc/passwd /etc/hosts

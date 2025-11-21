@@ -1,0 +1,4 @@
+#!/bin/bash
+# Script: 1-confused_smiley
+# Task: Displays a confused smiley (Ôo).
+echo "(Ôo)"

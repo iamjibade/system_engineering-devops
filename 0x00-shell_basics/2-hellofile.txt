@@ -1,0 +1,4 @@
+#!/bin/bash
+# Script: 2-hellofile
+# Task: Displays the content of the /etc/passwd file using cat.
+cat /etc/passwd

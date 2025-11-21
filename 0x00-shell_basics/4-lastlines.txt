@@ -1,0 +1,4 @@
+#!/bin/bash
+# Script: 4-lastlines
+# Task: Displays the last 10 lines of /etc/passwd using the tail command.
+tail -n 10 /etc/passwd

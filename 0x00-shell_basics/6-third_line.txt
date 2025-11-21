@@ -1,0 +1,7 @@
+#!/bin/bash
+# Script: 6-third_line
+# Task: Displays the third line of the file 'iacta'.
+# head -n 3: gets the first three lines.
+# |: pipes the output to the next command.
+# tail -n 1: gets the very last line of that piped output (which is the 3rd line of the original file).
+head -n 3 iacta | tail -n 1

@@ -1,0 +1,4 @@
+#!/bin/bash
+# Script: 0-hello_world
+# Task: Prints "Hello, World" to the standard output.
+echo "Hello, World"
