@@ -2,7 +2,7 @@
 # A Bash script that prints "To infinity and beyond" indefinitely
 # and prints "I am invincible!!!" when receiving SIGTERM
 
-trap 'echo "I am invincible!!!"; fflush' SIGTERM 2>/dev/null || trap 'echo "I am invincible!!!"; sleep 0' SIGTERM
+trap 'echo "I am invincible!!!"' SIGTERM
 
 while true
 do
