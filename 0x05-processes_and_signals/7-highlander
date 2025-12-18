@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
-# A Bash script that ignores SIGTERM and continues running while printing messages
+# A Bash script that ignores SIGTERM and keeps running
 
 trap 'echo "I am invincible!!!"' SIGTERM
 
 while true
 do
   echo "To infinity and beyond"
-  sleep 2
+  sleep 2 &
+  wait $!
 done
