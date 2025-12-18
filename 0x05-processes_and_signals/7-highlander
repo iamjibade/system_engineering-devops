@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-# Script that displays "To infinity and beyond" indefinitely
-# and reacts to SIGTERM with a specific message.
+# Script that handles SIGTERM and loops indefinitely
 
-# Trap SIGTERM (Signal 15) and execute the echo command
+# Define the behavior for SIGTERM
 trap "echo 'I am invincible!!!'" SIGTERM
 
 while true; do
