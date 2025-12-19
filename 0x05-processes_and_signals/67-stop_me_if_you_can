@@ -1,10 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that sends a SIGTERM to the 7-highlander process
+# Stop me if you can
 
-# Find the PID(s) of 7-highlander
-pids=$(pgrep -f "7-highlander")
-
-# Send SIGTERM to each PID
-for pid in $pids; do
-    kill -TERM "$pid"
-done
+pkill -f 4-to_infinity_and_beyond
